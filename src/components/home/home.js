@@ -1,5 +1,6 @@
 import './home.css';
 import hero from '../../assets/img/image.jpeg'
+import resume from '../../assets/img/resume.pdf'
 import { motion } from "framer-motion"
 
 
@@ -47,7 +48,7 @@ export default function home() {
     />
                                 </div>
                                 <div class="hero-btn">
-                                    <a class="btn" href="#contact">Hire Me</a>
+                                    <a class="btn" href={resume}>Download Resume</a>
                                     <a class="btn" href="#contact">Contact Me</a>
                                 </div>
                             </div>

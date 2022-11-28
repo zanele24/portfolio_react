@@ -23,8 +23,8 @@ function App() {
         {/* <NavHome/> */}
         <div className="home">
             <Home className="snap-start"/>
-            <About/>
-            {/* <Experience/> */}
+            {/* <About/> */}
+            <Experience/>
             <Service/>
             <Portfolio/>
             <section className='snap-center' id='contact'>

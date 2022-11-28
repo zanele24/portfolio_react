@@ -10,7 +10,7 @@ import './navbar.css';
 function navbar() {
 
     return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
               <Container>
                 <Navbar.Brand href="#home">ZeeFolio</Navbar.Brand>
 
@@ -24,29 +24,30 @@ function navbar() {
                   
                   </Nav>
 
-                  <Nav className="justify-content-end flex-grow-1 pe-3">
-                    <Nav.Item>
+                  <Nav className="justify-content-end flex-grow-1 pe-5">
+
+                    <Nav.Item style={{fontSize:"20px"}}>
                         <Nav.Link href="#home">Home</Nav.Link>
                     </Nav.Item>
                     
-                    <Nav.Item>
+                    {/* <Nav.Item style={{fontSize:"20px"}}>
                         <Nav.Link href="#about">About</Nav.Link>
+                    </Nav.Item> */}
+                    
+                    <Nav.Item style={{fontSize:"20px"}}>
+                        <Nav.Link href="#service">Skills</Nav.Link>
                     </Nav.Item>
                     
-                    <Nav.Item>
-                        <Nav.Link href="#service">Service</Nav.Link>
-                    </Nav.Item>
-                    
-                    <Nav.Item>
+                    <Nav.Item style={{fontSize:"20px"}}>
                         <Nav.Link href="#experience">Experience</Nav.Link>
                     </Nav.Item>
                     
-                    <Nav.Item>
-                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Item style={{fontSize:"20px"}}>
+                        <Nav.Link href="#portfolio">Projects</Nav.Link>
                     </Nav.Item>
                     
 
-                    <Nav.Item>
+                    <Nav.Item style={{fontSize:"20px"}}>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav.Item>
 

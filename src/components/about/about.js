@@ -1,5 +1,5 @@
 import './about.css';
-import aboutImg from '../../assets/img/experience.webp';
+// import aboutImg from '../../assets/img/experience.webp';
 
 export default function about() {
     return (
@@ -9,7 +9,7 @@ export default function about() {
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src={aboutImg} alt="Image"/>
+                            {/* <img src={aboutImg} alt="Image"/> */}
                         </div>
                     </div>
                     <div class="col-lg-6">
