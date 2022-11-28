@@ -17,7 +17,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router className= "h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden">
         <Navbar/>
         <div className="home">
             <Home/>
