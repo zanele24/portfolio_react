@@ -20,27 +20,27 @@ export default function contact() {
                                 <div class="contact-form">
                                     <div id="success"></div>
 
-                                    {/* <form onSubmit={handleSubmit((formData) => {window.location.href = `mailto:jnmhlongo@hotmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;})}name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <form action="https://formspree.io/f/mgeqbqor" method="POST" id="contactForm" noValidate="novalidate">
                                         <div class="control-group">
-                                            <input {...register('name')} type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                            <input type="text" class="form-control" name="name" placeholder="Your Name" required data-validation-required-message="Please enter your name" />
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="control-group">
-                                            <input {...register('email')}type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required data-validation-required-message="Please enter your email" />
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="control-group">
-                                            <input {...register('subject')}type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                            <input type="text" class="form-control" name="subject" placeholder="Subject" required data-validation-required-message="Please enter a subject" />
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="control-group">
-                                            <textarea {...register('message')} class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                            <textarea class="form-control" name="message" placeholder="Message" required data-validation-required-message="Please enter your message"></textarea>
                                             <p class="help-block"></p>
                                         </div>
                                         <div>
                                             <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
                                         </div>
-                                    </form> */}
+                                    </form>
                                 </div>
                             </div>
                         </div>

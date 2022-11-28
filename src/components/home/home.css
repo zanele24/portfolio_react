@@ -94,7 +94,7 @@
     margin-right: 10px;
   }
   
-  @media (max-width: 991.98px) {
+  /* @media (max-width: 991.98px) {
     .hero {
         padding-top: 60px;
     }
@@ -172,4 +172,4 @@
         padding: 8px 10px;
         letter-spacing: 0;
     }
-  }
+  } */

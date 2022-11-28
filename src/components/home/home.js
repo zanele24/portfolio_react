@@ -32,14 +32,10 @@ export default function home() {
       sequence={[
         "Web Designer",
         1000,
-        "Web Developer",
-        2000,
         "Front End Developer",
         3000,
-        "App Designer",
+        "Full Stack Developer",
         2000,
-        "App Developer",
-        1000,
         () => {
  
         }
