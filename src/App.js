@@ -17,15 +17,18 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router className= "h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden">
         <Navbar/>
         <div className="home">
-            <Home/>
+            <Home className="snap-start"/>
             <About/>
             <Experience/>
             <Service/>
             <Portfolio/>
+            <section className='snap-center' id='contact'>
             <Contact/>
+            </section>
+           
         </div>
         <Footer/>
     </Router>
