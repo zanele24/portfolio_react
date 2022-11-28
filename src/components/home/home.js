@@ -2,6 +2,7 @@ import './home.css';
 import hero from '../../assets/img/image.jpeg'
 import { motion } from "framer-motion"
 
+
 import { TypeAnimation } from 'react-type-animation';
 
 export default function home() {
@@ -50,8 +51,8 @@ export default function home() {
     />
                                 </div>
                                 <div class="hero-btn">
-                                    <a class="btn" href="">Hire Me</a>
-                                    <a class="btn" href="">Contact Me</a>
+                                    <a class="btn" href="#contact">Hire Me</a>
+                                    <a class="btn" href="#contact">Contact Me</a>
                                 </div>
                             </div>
                         </div>
