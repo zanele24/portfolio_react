@@ -6,23 +6,22 @@ export default function footer() {
             <div class="container-fluid">
                 <div class="container">
                     <div class="footer-info">
-                        <h2>Kate Winslet</h2>
-                        <h3>123 Street, New York, USA</h3>
+                        <h2>Nsuku Zanele Chauke</h2>
+                        <h3>Derby Drive, Randburg, JHB</h3>
                         <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
+                            <p>0670131452</p>
+                            <p>nsukuzanele24@gmail.com</p>
                         </div>
                         <div class="footer-social">
                             <a href=""><i class="fab fa-twitter"></i></a>
                             <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                             <a href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="container copyright">
-                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>&copy; <a href="#">ZeeFolio</a>, All Right Reserved</p>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #C7D4AC
+    background: #695aa6
   }
   
   .contact .container-fluid {
@@ -16,7 +16,7 @@
   .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #C7D4AC;
+    background: #695aa6;
   }
   
   .contact .contact-form input {
@@ -50,7 +50,7 @@
   
   .contact .contact-form .btn {
     margin-top: 35px;
-    color: #EF233C;
+    color: #695aa6;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
   }
