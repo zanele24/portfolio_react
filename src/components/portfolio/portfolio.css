@@ -5,7 +5,9 @@
     position: relative;
     padding: 45px 0 15px 0;
   }
-  
+  .portfolio-container{
+    gap: 10px;
+  }
   .portfolio #portfolio-filter {
     padding: 0;
     margin: -15px 0 25px 0;
