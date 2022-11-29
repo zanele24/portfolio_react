@@ -7,6 +7,7 @@ import Experience from './components/experience/experience';
 import Portfolio from './components/portfolio/portfolio';
 import Service from './components/service/service';
 import Contact from './components/contact/contact';
+import NavHome from './components/NavHome/navHome';
 
 //React imports 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
@@ -17,15 +18,19 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router className= "h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden">
         <Navbar/>
+        {/* <NavHome/> */}
         <div className="home">
-            <Home/>
-            <About/>
+            <Home className="snap-start"/>
+            {/* <About/> */}
             <Experience/>
             <Service/>
             <Portfolio/>
+            <section className='snap-center' id='contact'>
             <Contact/>
+            </section>
+           
         </div>
         <Footer/>
     </Router>

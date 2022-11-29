@@ -4,6 +4,7 @@
 .experience {
     position: relative;
     padding: 45px 0 15px 0;
+  
   }
   
   .experience .timeline {
@@ -15,7 +16,7 @@
     content: '';
     position: absolute;
     width: 2px;
-    background: #C7D4AC;
+    background: #695aa6;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -47,7 +48,7 @@
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #C7D4AC;
+    border: 2px solid #695aa6;
     border-radius: 16px;
     z-index: 1;
   }
@@ -79,7 +80,7 @@
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #C7D4AC;
+    color: #695aa6;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;

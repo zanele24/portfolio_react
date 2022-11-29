@@ -92,16 +92,16 @@
 .tech-icons {
   font-size: 4em !important;
   padding: 10px !important;
-  border: 1.7px solid rgba(49, 142, 117, 0.137) !important;
+  border: 1.7px solid rgba(56, 31, 201, 0.137) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  box-shadow: 4px 5px 4px 3px rgba(49, 142, 117, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(49, 28, 108, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
 
 .add-space{
-  gap: 5px;
+  gap: 6px;
   justify-content: center;
 }
